@@ -1,0 +1,51 @@
+body.homeview{
+	background: linear-gradient(-45deg, #000000, #23a6d5, #268572);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    
+}
+
+h1.h1home {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+    
+}
+
+p.parahome {
+
+    padding: auto;
+    position: relative;
+    text-align: center;
+
+}
+
+button {
+    order: 2;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
